@@ -1,0 +1,34 @@
+name: Fetch Framer Blog Updates
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  fetch-updates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install framer-api ws
+
+      - name: Fetch Framer collection updates
+        env:
+          FRAMER_API_KEY: ${{ secrets.FRAMER_API_KEY }}
+          FRAMER_PROJECT_URL: ${{ secrets.FRAMER_PROJECT_URL }}
+          FRAMER_BLOG_COLLECTION_ID: ${{ secrets.FRAMER_BLOG_COLLECTION_ID }}
+        run: node scripts/fetch-framer-updates.js
+
+      - name: Commit updated blog-updates.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh blog-updates.json from Framer"
+          file_pattern: blog-updates.json
