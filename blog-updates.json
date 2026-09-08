@@ -1,0 +1,365 @@
+{
+  "posts": [
+    {
+      "slug": "tiktok-shop-shipping-requirements-why-the-2-day-standard-kills-3pl-models",
+      "createdAt": "2026-08-21T01:02:31.404Z",
+      "updatedAt": "2026-09-08T13:43:52.093Z"
+    },
+    {
+      "slug": "tiktok-shop-return-rates-what-cpg-brands-need-to-model",
+      "createdAt": "2026-08-21T00:57:43.987Z",
+      "updatedAt": "2026-09-08T13:43:38.433Z"
+    },
+    {
+      "slug": "are-you-big-enough-for-2p-revenue-thresholds-and-readiness-for-cpg-brands-2",
+      "createdAt": "2026-08-21T00:48:57.199Z",
+      "updatedAt": "2026-08-31T18:05:50.635Z"
+    },
+    {
+      "slug": "are-you-big-enough-for-2p-revenue-thresholds-and-readiness-for-cpg-brands",
+      "createdAt": "2026-08-21T00:38:44.059Z",
+      "updatedAt": "2026-08-28T18:56:23.154Z"
+    },
+    {
+      "slug": "how-to-vet-an-amazon-2p-partner-15-questions-to-ask-before-you-sign",
+      "createdAt": "2026-08-21T00:04:58.840Z",
+      "updatedAt": "2026-08-26T20:47:09.450Z"
+    },
+    {
+      "slug": "the-best-amazon-accelerators-for-cpg-brands-in-2026",
+      "createdAt": "2026-08-20T23:40:16.266Z",
+      "updatedAt": "2026-08-26T20:46:54.652Z"
+    },
+    {
+      "slug": "seller-of-record-vs.-merchant-of-record-the-distinction-cpg-founders-actually-need",
+      "createdAt": "2026-08-12T14:43:53.575Z",
+      "updatedAt": "2026-08-26T20:46:53.869Z"
+    },
+    {
+      "slug": "true-cost-of-switching-amazon-operators",
+      "createdAt": "2026-08-12T03:43:11.326Z",
+      "updatedAt": "2026-09-01T20:41:30.797Z"
+    },
+    {
+      "slug": "the-1p-to-2p-migration-a-cpg-brand-s-playbook-for-leaving-vendor-central",
+      "createdAt": "2026-07-29T20:05:19.166Z",
+      "updatedAt": "2026-08-17T21:19:41.116Z"
+    },
+    {
+      "slug": "when-to-fire-your-amazon-agency-10-warning-signs",
+      "createdAt": "2026-07-29T19:57:54.358Z",
+      "updatedAt": "2026-08-15T17:38:02.585Z"
+    },
+    {
+      "slug": "the-2026-cpg-guide-to-tiktok-shop-economics-operations-and-fulfillment",
+      "createdAt": "2026-07-29T18:59:00.007Z",
+      "updatedAt": "2026-08-12T03:36:55.391Z"
+    },
+    {
+      "slug": "amazon-map-enforcement-the-cpg-brand-s-2026-playbook",
+      "createdAt": "2026-07-27T22:27:06.463Z",
+      "updatedAt": "2026-08-12T03:36:54.769Z"
+    },
+    {
+      "slug": "the-amazon-cosmo-algorithm-how-ai-is-rewriting-cpg-product-discovery-in-2026",
+      "createdAt": "2026-07-27T22:15:35.377Z",
+      "updatedAt": "2026-08-12T03:36:41.246Z"
+    },
+    {
+      "slug": "vendor-central-vs.-seller-central-vs.-2p-the-2026-three-way-decision",
+      "createdAt": "2026-07-27T22:10:22.000Z",
+      "updatedAt": "2026-08-05T15:17:04.946Z"
+    },
+    {
+      "slug": "how-to-choose-a-2p-amazon-partner-a-cpg-brand-s-2026-selection-guide",
+      "createdAt": "2026-07-27T21:52:43.794Z",
+      "updatedAt": "2026-08-03T18:58:38.623Z"
+    },
+    {
+      "slug": "the-complete-amazon-buy-box-guide-for-cpg-brands",
+      "createdAt": "2026-04-28T18:39:27.039Z",
+      "updatedAt": "2026-07-07T18:12:02.458Z"
+    },
+    {
+      "slug": "the-amazon-subscribe-save-playbook",
+      "createdAt": "2026-04-21T19:06:37.004Z",
+      "updatedAt": "2026-07-07T18:12:02.469Z"
+    },
+    {
+      "slug": "2p-vs.-amazon-agency-which-model-is-right-for-your-brand",
+      "createdAt": "2026-04-21T18:57:13.305Z",
+      "updatedAt": "2026-07-07T18:12:02.478Z"
+    },
+    {
+      "slug": "why-we-invested-in-growth-and-what-it-means-for-the-brands-we-serve",
+      "createdAt": "2026-04-14T03:52:33.985Z",
+      "updatedAt": "2026-07-07T18:12:02.482Z"
+    },
+    {
+      "slug": "rufus-changed-everything",
+      "createdAt": "2026-04-09T16:58:04.547Z",
+      "updatedAt": "2026-07-07T18:12:02.485Z"
+    },
+    {
+      "slug": "amazon-vendor-central-termination-the-complete-1p-to-2p-transition-guide",
+      "createdAt": "2026-04-02T23:45:39.562Z",
+      "updatedAt": "2026-07-20T18:52:07.664Z"
+    },
+    {
+      "slug": "10-billion-to-bankruptcy-the-amazon-aggregator-autopsy",
+      "createdAt": "2026-03-24T00:38:04.365Z",
+      "updatedAt": "2026-07-07T18:12:02.498Z"
+    },
+    {
+      "slug": "why-your-amazon-tacos-is-a-brand-problem",
+      "createdAt": "2026-03-23T20:07:33.387Z",
+      "updatedAt": "2026-07-07T18:12:02.526Z"
+    },
+    {
+      "slug": "what-is-the-2p-ecommerce-model-the-definitive-guide-for-cpg-brands",
+      "createdAt": "2026-03-23T20:02:13.082Z",
+      "updatedAt": "2026-07-20T18:52:47.823Z"
+    },
+    {
+      "slug": "why-your-amazon-listings-aren-t-converting-(and-how-to-fix-them)",
+      "createdAt": "2026-03-03T19:53:58.103Z",
+      "updatedAt": "2026-07-07T18:12:02.538Z"
+    },
+    {
+      "slug": "how-to-scale-an-amazon-brand-without-losing-margins",
+      "createdAt": "2026-03-03T19:49:43.972Z",
+      "updatedAt": "2026-07-07T18:12:02.545Z"
+    },
+    {
+      "slug": "what-is-an-amazon-accelerator-agency-and-do-i-need-one",
+      "createdAt": "2026-03-03T19:30:40.792Z",
+      "updatedAt": "2026-07-07T18:12:02.552Z"
+    },
+    {
+      "slug": "meet-2p.-the-ecomm-model-ending-the-vendor-vs.-seller-tug-of-war",
+      "createdAt": "2026-03-02T21:33:50.316Z",
+      "updatedAt": "2026-07-07T18:12:02.556Z"
+    },
+    {
+      "slug": "fba-vs-fbm-which-is-right-for-your-brand",
+      "createdAt": "2026-02-25T00:04:25.956Z",
+      "updatedAt": "2026-07-07T18:12:02.560Z"
+    },
+    {
+      "slug": "amazon-brand-registry-what-it-is-and-why-you-need-it",
+      "createdAt": "2026-02-24T23:58:45.056Z",
+      "updatedAt": "2026-07-07T18:12:02.566Z"
+    },
+    {
+      "slug": "when-amazon-stops-picking-up-your-1p-calls",
+      "createdAt": "2025-09-02T12:52:43.758Z",
+      "updatedAt": "2026-07-07T18:12:02.575Z"
+    },
+    {
+      "slug": "the-growth-ladder-most-cpg-brands-get-wrong",
+      "createdAt": "2026-02-23T00:22:14.038Z",
+      "updatedAt": "2026-07-07T18:12:02.582Z"
+    },
+    {
+      "slug": "magic-of-multi-channel-ecommerce-strategy",
+      "createdAt": "2026-02-22T00:17:42.699Z",
+      "updatedAt": "2026-07-07T18:12:02.584Z"
+    },
+    {
+      "slug": "6-reasons-to-integrate-generative-fill-into-your-photo-workflow",
+      "createdAt": "2026-02-21T23:54:11.445Z",
+      "updatedAt": "2026-07-07T18:12:02.586Z"
+    },
+    {
+      "slug": "the-8-million-question---inside-the-economics-of-super-bowl-ads",
+      "createdAt": "2026-02-21T22:21:42.670Z",
+      "updatedAt": "2026-07-07T18:12:02.625Z"
+    },
+    {
+      "slug": "vendor-negotiations-and-the-cost-no-one-budgets-for",
+      "createdAt": "2025-09-02T12:52:43.758Z",
+      "updatedAt": "2026-07-07T18:12:02.632Z"
+    },
+    {
+      "slug": "three-questions-every-brand-should-ask-before-launching-a-new-sales-channel",
+      "createdAt": "2026-05-08T04:22:23.355Z",
+      "updatedAt": "2026-07-07T18:12:02.635Z"
+    },
+    {
+      "slug": "amazon-advertising-transparency-why-your-agency-s-roas-is-lying",
+      "createdAt": "2026-05-08T14:58:22.149Z",
+      "updatedAt": "2026-07-07T18:12:02.645Z"
+    },
+    {
+      "slug": "amazon-brand-protection-vps-guide",
+      "createdAt": "2026-05-08T17:25:42.420Z",
+      "updatedAt": "2026-07-07T18:12:02.649Z"
+    },
+    {
+      "slug": "stop-directing-customers-where-you-want-them-to-buy",
+      "createdAt": "2026-05-08T17:25:55.853Z",
+      "updatedAt": "2026-07-07T18:12:02.655Z"
+    },
+    {
+      "slug": "amazon-dsp-advertising-cpg-guide",
+      "createdAt": "2026-05-08T17:29:31.403Z",
+      "updatedAt": "2026-07-07T18:12:02.659Z"
+    },
+    {
+      "slug": "liquid-death-case-study",
+      "createdAt": "2026-05-08T17:29:49.151Z",
+      "updatedAt": "2026-07-07T18:12:02.668Z"
+    },
+    {
+      "slug": "tiktok-shop-feeding-amazon",
+      "createdAt": "2026-05-08T17:30:12.083Z",
+      "updatedAt": "2026-07-07T18:12:02.676Z"
+    },
+    {
+      "slug": "amazon-a-plus-content-for-cpg-brands",
+      "createdAt": "2026-05-08T17:33:36.929Z",
+      "updatedAt": "2026-07-07T18:12:02.682Z"
+    },
+    {
+      "slug": "state-of-cpg-ecommerce-2026",
+      "createdAt": "2026-05-08T17:34:11.102Z",
+      "updatedAt": "2026-07-07T18:12:02.684Z"
+    },
+    {
+      "slug": "tiktok-shop-guide-for-cpg-brands",
+      "createdAt": "2026-05-08T17:34:13.431Z",
+      "updatedAt": "2026-07-07T18:12:02.694Z"
+    },
+    {
+      "slug": "tiktok-shop-is-not-a-substitute-for-marketplace-fundamentals",
+      "createdAt": "2026-06-08T15:48:31.742Z",
+      "updatedAt": "2026-07-07T18:12:02.705Z"
+    },
+    {
+      "slug": "amazon-is-not-a-channel-its-the-economic-center-of-your-brand",
+      "createdAt": "2026-06-08T15:50:31.975Z",
+      "updatedAt": "2026-07-07T18:12:02.709Z"
+    },
+    {
+      "slug": "buy-box-control-is-a-growth-strategy-not-an-ops-detail",
+      "createdAt": "2026-06-08T15:52:22.372Z",
+      "updatedAt": "2026-07-20T18:50:13.503Z"
+    },
+    {
+      "slug": "why-most-brands-are-measuring-marketplace-growth-wrong",
+      "createdAt": "2026-06-08T15:52:23.199Z",
+      "updatedAt": "2026-07-07T18:12:02.715Z"
+    },
+    {
+      "slug": "2p-3p-or-hybrid-the-real-question-is-control-vs-convenience",
+      "createdAt": "2026-06-08T15:52:39.883Z",
+      "updatedAt": "2026-07-07T18:12:02.720Z"
+    },
+    {
+      "slug": "retail-media-waste-where-brands-burn-budget-without-real-incrementality",
+      "createdAt": "2026-06-08T15:53:07.328Z",
+      "updatedAt": "2026-06-19T20:49:43.136Z"
+    },
+    {
+      "slug": "the-hidden-tax-of-vendor-central-why-cpg-brands-are-quietly-leaving-1p-in-2026",
+      "createdAt": "2026-06-08T16:01:22.222Z",
+      "updatedAt": "2026-06-19T21:00:46.383Z"
+    },
+    {
+      "slug": "fba-vs-fbm-in-2026-a-decision-framework-for-brands-doing-10m",
+      "createdAt": "2026-06-08T16:01:22.236Z",
+      "updatedAt": "2026-06-19T21:12:27.405Z"
+    },
+    {
+      "slug": "the-fathers-day-lesson-what-building-a-cpg-brand-taught-me-about-patience",
+      "createdAt": "2026-06-08T16:01:22.245Z",
+      "updatedAt": "2026-06-19T21:12:50.599Z"
+    },
+    {
+      "slug": "the-anatomy-of-a-buy-box-loss-what-really-happens-when-you-lose-it-and-how-to-recover",
+      "createdAt": "2026-06-08T16:01:22.271Z",
+      "updatedAt": "2026-06-22T18:07:52.288Z"
+    },
+    {
+      "slug": "walmart-connect-is-eating-amazons-lunch-sort-of-heres-what-cpg-should-watch",
+      "createdAt": "2026-06-25T16:28:53.867Z",
+      "updatedAt": "2026-07-07T18:12:02.753Z"
+    },
+    {
+      "slug": "amazon-brand-protection-the-cfos-guide-to-channel-cleanup",
+      "createdAt": "2026-06-25T17:06:40.727Z",
+      "updatedAt": "2026-07-07T18:12:02.754Z"
+    },
+    {
+      "slug": "ecommerce-accelerator-decision-framework-7-questions",
+      "createdAt": "2026-06-25T17:07:48.313Z",
+      "updatedAt": "2026-07-08T20:32:43.630Z"
+    },
+    {
+      "slug": "half-year-reckoning-3-numbers-cpg-operators-stress-test-july",
+      "createdAt": "2026-06-25T17:07:52.001Z",
+      "updatedAt": "2026-07-07T18:12:02.756Z"
+    },
+    {
+      "slug": "what-the-founders-got-right-independence-day-lessons-for-modern-brand-builders",
+      "createdAt": "2026-06-25T17:08:23.279Z",
+      "updatedAt": "2026-07-07T18:12:02.759Z"
+    },
+    {
+      "slug": "why-most-a-plus-content-is-wasted-strategic-approach-brand-managers-miss",
+      "createdAt": "2026-06-25T17:09:08.384Z",
+      "updatedAt": "2026-07-08T20:33:07.401Z"
+    },
+    {
+      "slug": "what-prime-day-tells-you-about-your-brand",
+      "createdAt": "2026-06-25T17:11:36.141Z",
+      "updatedAt": "2026-07-27T22:37:51.668Z"
+    },
+    {
+      "slug": "margin-squeeze-cpg-brands",
+      "createdAt": "2026-06-25T17:15:12.923Z",
+      "updatedAt": "2026-07-17T22:28:25.704Z"
+    },
+    {
+      "slug": "amazon-listing-optimization-is-dead-long-live-amazon-listing-strategy",
+      "createdAt": "2026-06-25T17:17:26.169Z",
+      "updatedAt": "2026-07-27T22:36:56.023Z"
+    },
+    {
+      "slug": "cpg-brand-tiktok-shop-playbook-2026",
+      "createdAt": "2026-06-25T17:18:17.482Z",
+      "updatedAt": "2026-07-28T15:27:50.143Z"
+    },
+    {
+      "slug": "mrbeast-lesson-cpg-brand-creator-led-commerce",
+      "createdAt": "2026-06-25T17:18:43.914Z",
+      "updatedAt": "2026-07-27T22:36:27.233Z"
+    },
+    {
+      "slug": "why-your-amazon-advertising-roas-is-lying-to-you",
+      "createdAt": "2026-06-25T17:21:00.350Z",
+      "updatedAt": "2026-07-28T15:27:52.205Z"
+    },
+    {
+      "slug": "founder-letter-marketplace-economics-5-years",
+      "createdAt": "2026-06-25T17:23:21.174Z",
+      "updatedAt": "2026-07-28T15:27:57.020Z"
+    },
+    {
+      "slug": "july-wrap-second-half-2026",
+      "createdAt": "2026-06-25T17:23:55.863Z",
+      "updatedAt": "2026-08-03T18:58:34.415Z"
+    },
+    {
+      "slug": "summer-slowdown-is-a-lie-why-july-is-the-most-important-month-of-your-amazon-year",
+      "createdAt": "2026-06-25T17:26:20.926Z",
+      "updatedAt": "2026-07-28T15:27:54.442Z"
+    },
+    {
+      "slug": "amazon-brand-management-when-to-build-it-in-house-vs-bring-in-a-partner",
+      "createdAt": "2026-06-25T17:29:09.800Z",
+      "updatedAt": "2026-08-03T18:58:31.692Z"
+    }
+  ],
+  "fetchedAt": "2026-09-08T21:05:16.953Z"
+}
