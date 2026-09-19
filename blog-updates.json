@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "the-amazon-ipi-score-trap-why-cpg-brands-are-losing-fba-space-(and-how-to-get-it-back)",
+      "createdAt": "2026-09-08T22:24:40.399Z",
+      "updatedAt": "2026-09-16T17:08:27.358Z"
+    },
+    {
+      "slug": "amazon-inbound-placement-fees-the-new-math-of-3p-economics",
+      "createdAt": "2026-09-08T22:05:28.078Z",
+      "updatedAt": "2026-09-15T16:34:30.506Z"
+    },
+    {
+      "slug": "the-amazon-crap-list-explained-(and-how-cpg-brands-get-off-it)",
+      "createdAt": "2026-09-08T21:45:10.016Z",
+      "updatedAt": "2026-09-15T16:34:26.339Z"
+    },
+    {
+      "slug": "walmart-marketplace-vs.-amazon-for-cpg-the-2026-decision-framework",
+      "createdAt": "2026-08-21T01:10:07.076Z",
+      "updatedAt": "2026-09-15T16:34:28.272Z"
+    },
+    {
       "slug": "tiktok-shop-shipping-requirements-why-the-2-day-standard-kills-3pl-models",
       "createdAt": "2026-08-21T01:02:31.404Z",
       "updatedAt": "2026-09-08T13:43:52.093Z"
@@ -361,5 +381,5 @@
       "updatedAt": "2026-08-03T18:58:31.692Z"
     }
   ],
-  "fetchedAt": "2026-09-12T07:00:52.124Z"
+  "fetchedAt": "2026-09-19T07:00:49.378Z"
 }
