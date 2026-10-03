@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "slug": "retail-media-incrementality-the-2026-reckoning",
+      "createdAt": "2026-09-08T22:43:04.299Z",
+      "updatedAt": "2026-09-30T22:24:52.942Z"
+    },
+    {
+      "slug": "amazon-co-op-fees-in-2026-what-cpg-vendors-are-actually-paying",
+      "createdAt": "2026-09-08T22:35:22.946Z",
+      "updatedAt": "2026-09-30T22:24:46.693Z"
+    },
+    {
+      "slug": "amazon-vine-in-2026-is-it-worth-it-for-cpg-brands",
+      "createdAt": "2026-09-08T22:31:41.635Z",
+      "updatedAt": "2026-09-30T22:24:44.642Z"
+    },
+    {
       "slug": "the-amazon-ipi-score-trap-why-cpg-brands-are-losing-fba-space-(and-how-to-get-it-back)",
       "createdAt": "2026-09-08T22:24:40.399Z",
       "updatedAt": "2026-09-16T17:08:27.358Z"
@@ -14,6 +29,11 @@
       "slug": "the-amazon-crap-list-explained-(and-how-cpg-brands-get-off-it)",
       "createdAt": "2026-09-08T21:45:10.016Z",
       "updatedAt": "2026-09-15T16:34:26.339Z"
+    },
+    {
+      "slug": "the-amazon-shopify-tiktok-trifecta-running-omnichannel-2p-from-one-inventory-pool",
+      "createdAt": "2026-08-21T01:13:36.624Z",
+      "updatedAt": "2026-09-30T22:24:49.692Z"
     },
     {
       "slug": "walmart-marketplace-vs.-amazon-for-cpg-the-2026-decision-framework",
@@ -381,5 +401,5 @@
       "updatedAt": "2026-08-03T18:58:31.692Z"
     }
   ],
-  "fetchedAt": "2026-09-26T07:00:55.818Z"
+  "fetchedAt": "2026-10-03T07:00:44.867Z"
 }
