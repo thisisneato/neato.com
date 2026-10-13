@@ -1,10 +1,16 @@
-name: Fetch Framer Blog Updates
+name: Build sitemap from Framer
 
 on:
-  workflow_dispatch: {}
+  schedule:
+    - cron: '23 13 * * *'   # daily, ~6:23 am Pacific (GitHub uses UTC)
+  workflow_dispatch: {}     # "Run workflow" button for an immediate refresh
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: false
 
 jobs:
-  fetch-updates:
+  build-sitemap:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,15 +26,18 @@ jobs:
       - name: Install dependencies
         run: npm install framer-api ws
 
-      - name: Fetch Framer collection updates
+      - name: Build sitemap.xml
         env:
           FRAMER_API_KEY: ${{ secrets.FRAMER_API_KEY }}
           FRAMER_PROJECT_URL: ${{ secrets.FRAMER_PROJECT_URL }}
           FRAMER_BLOG_COLLECTION_ID: ${{ secrets.FRAMER_BLOG_COLLECTION_ID }}
-        run: node scripts/fetch-framer-updates.js
+        run: node scripts/build-sitemap.js
 
-      - name: Commit updated blog-updates.json
+      - name: Check sitemap is valid XML
+        run: python3 -c "import xml.dom.minidom; xml.dom.minidom.parse('sitemap.xml'); print('sitemap.xml is valid XML')"
+
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh blog-updates.json from Framer"
-          file_pattern: blog-updates.json
+          commit_message: "chore: rebuild sitemap.xml from Framer"
+          file_pattern: sitemap.xml blog-updates.json
