@@ -9,6 +9,9 @@
 //                 change, add it to sitemap-overrides.json, e.g. {"/how-2p-works": "2026-10-13"}
 //
 // Also writes blog-updates.json, same as the old fetch script.
+//
+// Framer's API occasionally throws a one-off "Internal server error", so both
+// fetches are retried a few times before the run gives up.
 
 import { connect } from "framer-api";
 import { existsSync, readFileSync, writeFileSync } from "fs";
@@ -27,6 +30,10 @@ const EXCLUDE = new Set(["/test", "/justynehometest", "/contact-na3", "/nacs"]);
 const MIN_LIVE_URLS = 50;
 const MIN_POSTS = 10;
 
+// Retries: 3 tries in total, waiting 30s and then 60s between them.
+const RETRY_ATTEMPTS = 3;
+const RETRY_DELAY_MS = 30_000;
+
 const day = (iso) => (iso ? String(iso).slice(0, 10) : null);
 const latest = (...dates) => dates.filter(Boolean).sort().pop() || null;
 const today = new Date().toISOString().slice(0, 10);
@@ -43,6 +50,34 @@ const pathOf = (url) => {
   return p === "" ? "/" : p;
 };
 const urlOf = (path) => (path === "/" ? `${SITE}/` : `${SITE}${path}`);
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// An error that retrying can't fix (e.g. a wrong collection id), so fail right away.
+function permanentError(message) {
+  const err = new Error(message);
+  err.permanent = true;
+  return err;
+}
+
+// Runs fn, retrying on failure. Each retry is logged as a GitHub Actions warning,
+// so a run that only passed on a retry still shows it in the run summary.
+async function withRetry(label, fn) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (err?.permanent || attempt >= RETRY_ATTEMPTS) throw err;
+      const waitMs = RETRY_DELAY_MS * attempt;
+      const reason = [err?.code, err?.message].filter(Boolean).join(": ") || String(err);
+      console.log(
+        `::warning::${label} failed (attempt ${attempt} of ${RETRY_ATTEMPTS}): ${reason}. ` +
+        `Retrying in ${waitMs / 1000}s.`
+      );
+      await sleep(waitMs);
+    }
+  }
+}
 
 function readLocs(xml) {
   return [...xml.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/g)].map((m) => unescapeXml(m[1]));
@@ -63,12 +98,14 @@ function readOverrides() {
   return JSON.parse(readFileSync(OVERRIDES_FILE, "utf8"));
 }
 
+// Opens a fresh Framer connection on every attempt, so a retry never reuses a
+// connection that just failed.
 async function fetchBlogPosts() {
   const framer = await connect(process.env.FRAMER_PROJECT_URL, process.env.FRAMER_API_KEY);
   try {
     const collection = await framer.getCollection(process.env.FRAMER_BLOG_COLLECTION_ID);
     if (!collection) {
-      throw new Error(
+      throw permanentError(
         "Blog collection not found for FRAMER_BLOG_COLLECTION_ID. " +
         "Run the discovery workflow again if you need to re-check the id."
       );
@@ -97,7 +134,13 @@ async function fetchBlogPosts() {
         };
       });
   } finally {
-    await framer.disconnect();
+    // Best effort: by this point the data is already in hand (or the real error
+    // is already on its way up), so a hiccup while disconnecting shouldn't fail the run.
+    try {
+      await framer.disconnect();
+    } catch (err) {
+      console.warn(`Couldn't disconnect from Framer cleanly: ${err?.message ?? err}`);
+    }
   }
 }
 
@@ -111,7 +154,10 @@ async function fetchLiveUrls() {
   return locs;
 }
 
-const [posts, liveUrls] = await Promise.all([fetchBlogPosts(), fetchLiveUrls()]);
+const [posts, liveUrls] = await Promise.all([
+  withRetry("Fetching blog posts from Framer", fetchBlogPosts),
+  withRetry("Fetching the live sitemap", fetchLiveUrls),
+]);
 if (posts.length < MIN_POSTS) {
   throw new Error(`Framer returned only ${posts.length} published posts; not writing a new sitemap.`);
 }
